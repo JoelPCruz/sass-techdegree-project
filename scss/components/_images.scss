@@ -1,7 +1,10 @@
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-@use '../utilities/variables' as *;
+img {
+  max-width: 100%;
+}
+
 .img-avatar {
     display: block;
     margin-left: auto;

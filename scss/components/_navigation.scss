@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
-@use '../utilities/variables' as *;
+
 .nav {
     padding-left: 0;
     flex-basis: 100%;
@@ -21,7 +21,7 @@
 
        &-:hover {
             color: $accent;
-            background-color: #58e1c1;
+            background-color: $txt-clr-2;
         }
     }
 }
